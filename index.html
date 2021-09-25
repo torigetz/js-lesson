@@ -2,9 +2,42 @@
 <html>
     <head>
         <title>Урок по JavaScript</title>
+        <link rel='stylesheet' href='./style.css' />
     </head>
-    <body>
-        <h1>Hello, Oleg!</h1>
+    <body class='page'>
+        <div class='calc shadow'>
+            <h1 class='calc__header'>Калькулятор</h1>
+            <input
+                class='calc__input shadow'
+                type='text'
+                name='first'
+                id='first'
+                placeholder="Первое значение"
+            />
+            <input
+                class='calc__input shadow'
+                type='text'
+                name='second'
+                id='second'
+                placeholder="Второе значение"
+            />
+            <p
+                class='error'
+                id='calcError'
+            >
+            </p>
+            <button
+                class='calc__submit shadow'
+                id='submit'
+            >
+                Рассчитать
+            </button>
+            <h1
+                class='calc__result'
+                id='calcResult'
+            >
+            </h1>
+        </div>
         <script src='./main.js'></script>
     </body>
 </html>
