@@ -1,0 +1,12 @@
+{
+  "name": "js-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/torigetz/js-lesson.git",
+  "author": "Daniil Benger <torigetz@welcomemedia.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx live-server",
+    "start": "npx http-server"
+  }
+}
