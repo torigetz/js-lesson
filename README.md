@@ -4,3 +4,13 @@
 ```
 $ npm install --global yarn
 ```
+
+## Start
+```
+$ yarn start
+```
+
+## Start (Development)
+```
+$ yarn dev
+```
